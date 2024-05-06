@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+
 
 class pelajar;
 class manusia
@@ -20,14 +20,17 @@ public:
 
 void manusia::showNilaiPelajar(pelajar& x)
 {
-
+    std::cout << x.nilai;
 }
 
 
 
 int main()
 {
-    
+    manusia budi;
+    pelajar pbudi;
+    budi.showNilaiPelajar(pbudi);
+    return 0;
 }
 
 
